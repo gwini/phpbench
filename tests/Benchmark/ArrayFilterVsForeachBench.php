@@ -14,10 +14,47 @@ class ArrayFilterVsForeachBench
      * @Iterations(50)
      * @OutputTimeUnit("milliseconds", precision=10)
      */
-    public function benchFilterByArrayFilter(): void
+    public function benchFilterByArrayFilterCallableArrowStatic(): void
     {
         $people = self::getPersonTestingData();
-        $activePeople = array_filter($people, static fn (Person $person) => $person->isActive());
+        $activePeople = array_filter($people, fn(Person $person) => $person->isActive());
+    }
+
+    /**
+     * @Revs(10000)
+     * @Iterations(50)
+     * @OutputTimeUnit("milliseconds", precision=10)
+     */
+    public function benchFilterByArrayFilterCallableArrow(): void
+    {
+        $people = self::getPersonTestingData();
+        $activePeople = array_filter($people, static fn(Person $person) => $person->isActive());
+    }
+
+    /**
+     * @Revs(10000)
+     * @Iterations(50)
+     * @OutputTimeUnit("milliseconds", precision=10)
+     */
+    public function benchFilterByArrayFilterCallable(): void
+    {
+        $people = self::getPersonTestingData();
+        $activePeople = array_filter($people, function (Person $person) {
+            return $person->isActive();
+        });
+    }
+
+    /**
+     * @Revs(10000)
+     * @Iterations(50)
+     * @OutputTimeUnit("milliseconds", precision=10)
+     */
+    public function benchFilterByArrayFilterCallableStatic(): void
+    {
+        $people = self::getPersonTestingData();
+        $activePeople = array_filter($people, static function (Person $person) {
+            return $person->isActive();
+        });
     }
 
     /**
