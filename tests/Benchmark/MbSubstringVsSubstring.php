@@ -6,6 +6,10 @@ use PhpBench\Benchmark\Metadata\Annotations\Iterations;
 use PhpBench\Benchmark\Metadata\Annotations\OutputTimeUnit;
 use PhpBench\Benchmark\Metadata\Annotations\Revs;
 
+/**
+ * To use this bench, mbstring extension is required
+ * @see https://www.php.net/manual/en/mbstring.installation.php
+ */
 class MbSubstringVsSubstring
 {
     /**
