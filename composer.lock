@@ -224,16 +224,16 @@
         },
         {
             "name": "phpbench/container",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpbench/container.git",
-                "reference": "04054b7c8cb30f948e5a289601c34834db58aa9f"
+                "reference": "def10824b6009d31028fa8dc9f73f4b26b234a67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbench/container/zipball/04054b7c8cb30f948e5a289601c34834db58aa9f",
-                "reference": "04054b7c8cb30f948e5a289601c34834db58aa9f",
+                "url": "https://api.github.com/repos/phpbench/container/zipball/def10824b6009d31028fa8dc9f73f4b26b234a67",
+                "reference": "def10824b6009d31028fa8dc9f73f4b26b234a67",
                 "shasum": ""
             },
             "require": {
@@ -269,9 +269,9 @@
             "description": "Simple, configurable, service container.",
             "support": {
                 "issues": "https://github.com/phpbench/container/issues",
-                "source": "https://github.com/phpbench/container/tree/2.0.1"
+                "source": "https://github.com/phpbench/container/tree/2.1.0"
             },
-            "time": "2020-11-21T10:55:32+00:00"
+            "time": "2021-04-04T07:23:17+00:00"
         },
         {
             "name": "phpbench/dom",
@@ -324,16 +324,16 @@
         },
         {
             "name": "phpbench/phpbench",
-            "version": "1.0.0-alpha7",
+            "version": "1.0.0-alpha9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpbench/phpbench.git",
-                "reference": "07fa6fafee14b4f0ebd6e768dbc6f6c9590242b2"
+                "reference": "83cd0693b4adc53b912d96db56edd8bdf597b1ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbench/phpbench/zipball/07fa6fafee14b4f0ebd6e768dbc6f6c9590242b2",
-                "reference": "07fa6fafee14b4f0ebd6e768dbc6f6c9590242b2",
+                "url": "https://api.github.com/repos/phpbench/phpbench/zipball/83cd0693b4adc53b912d96db56edd8bdf597b1ea",
+                "reference": "83cd0693b4adc53b912d96db56edd8bdf597b1ea",
                 "shasum": ""
             },
             "require": {
@@ -346,7 +346,7 @@
                 "ext-spl": "*",
                 "ext-tokenizer": "*",
                 "php": "^7.2 || ^8.0",
-                "phpbench/container": "^2.0",
+                "phpbench/container": "^2.1",
                 "phpbench/dom": "~0.3.0",
                 "psr/log": "^1.1",
                 "seld/jsonlint": "^1.1",
@@ -400,9 +400,9 @@
             "description": "PHP Benchmarking Framework",
             "support": {
                 "issues": "https://github.com/phpbench/phpbench/issues",
-                "source": "https://github.com/phpbench/phpbench/tree/1.0.0-alpha7"
+                "source": "https://github.com/phpbench/phpbench/tree/1.0.0-alpha9"
             },
-            "time": "2021-03-20T09:23:37+00:00"
+            "time": "2021-04-12T13:04:48+00:00"
         },
         {
             "name": "psr/container",
@@ -567,16 +567,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.2.5",
+            "version": "v5.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "938ebbadae1b0a9c9d1ec313f87f9708609f1b79"
+                "reference": "35f039df40a3b335ebf310f244cb242b3a83ac8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/938ebbadae1b0a9c9d1ec313f87f9708609f1b79",
-                "reference": "938ebbadae1b0a9c9d1ec313f87f9708609f1b79",
+                "url": "https://api.github.com/repos/symfony/console/zipball/35f039df40a3b335ebf310f244cb242b3a83ac8d",
+                "reference": "35f039df40a3b335ebf310f244cb242b3a83ac8d",
                 "shasum": ""
             },
             "require": {
@@ -644,7 +644,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.2.5"
+                "source": "https://github.com/symfony/console/tree/v5.2.6"
             },
             "funding": [
                 {
@@ -660,7 +660,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-06T13:42:15+00:00"
+            "time": "2021-03-28T09:42:18+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -731,16 +731,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.2.4",
+            "version": "v5.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "710d364200997a5afde34d9fe57bd52f3cc1e108"
+                "reference": "8c86a82f51658188119e62cff0a050a12d09836f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/710d364200997a5afde34d9fe57bd52f3cc1e108",
-                "reference": "710d364200997a5afde34d9fe57bd52f3cc1e108",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/8c86a82f51658188119e62cff0a050a12d09836f",
+                "reference": "8c86a82f51658188119e62cff0a050a12d09836f",
                 "shasum": ""
             },
             "require": {
@@ -773,7 +773,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v5.2.4"
+                "source": "https://github.com/symfony/filesystem/tree/v5.2.6"
             },
             "funding": [
                 {
@@ -789,7 +789,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-12T10:38:38+00:00"
+            "time": "2021-03-28T14:30:26+00:00"
         },
         {
             "name": "symfony/finder",
@@ -1550,16 +1550,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.2.4",
+            "version": "v5.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "4e78d7d47061fa183639927ec40d607973699609"
+                "reference": "ad0bd91bce2054103f5eaa18ebeba8d3bc2a0572"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/4e78d7d47061fa183639927ec40d607973699609",
-                "reference": "4e78d7d47061fa183639927ec40d607973699609",
+                "url": "https://api.github.com/repos/symfony/string/zipball/ad0bd91bce2054103f5eaa18ebeba8d3bc2a0572",
+                "reference": "ad0bd91bce2054103f5eaa18ebeba8d3bc2a0572",
                 "shasum": ""
             },
             "require": {
@@ -1613,7 +1613,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v5.2.4"
+                "source": "https://github.com/symfony/string/tree/v5.2.6"
             },
             "funding": [
                 {
@@ -1629,7 +1629,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-16T10:20:28+00:00"
+            "time": "2021-03-17T17:12:15+00:00"
         },
         {
             "name": "webmozart/assert",
